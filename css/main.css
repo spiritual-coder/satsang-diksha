@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body {
+  background: #ff9900 url(../assets/background.jpg);
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  /*  padding-top: 10px;
+  padding-bottom: 10px;
+			background-color: white;
+
+  padding: 30px;*/
+  color: #333;
+}
+
+.container {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 60px 100px 15px;
+  margin: 60px 180px;
+  border-radius: 6px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+  color: #c00000;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2 {
+  border-bottom: 1px solid #eaecef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 24px 0 16px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+}
+
+.content {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.circle {
+  text-align: center;
+  border: 2px solid #fc6a03;
+  width: 24px;
+  height: 24px;
+  color: navy;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 4px;
+  line-height: 24px;
+  font-family: "Segoe UI", Arial;
+  font-weight: bold;
+  /*			display: block;
+*/
+  margin: 0 auto;
+}
+
+.circle-two {
+  text-align: center;
+  border: 2px solid #fc6a03;
+  width: 27px;
+  height: 27px;
+  color: navy;
+  font-size: 15px;
+  border-radius: 50%;
+  padding: 4px;
+  line-height: 24px;
+  font-family: "Segoe UI", Arial;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.shlok,
+p.sanskrit {
+  font-family: "Noto Sans Devanagari";
+  font-size: 16pt;
+  line-height: 1;
+  color: #c00000;
+  text-align: center;
+}
+
+.meaning_english,
+p.english {
+  font-family: "Source Sans Pro";
+  font-size: 14pt;
+  line-height: 1.75em;
+  color: #c45911;
+  text-align: center;
+  text-indent: 24pt;
+}
+
+.meaning_hindi,
+p.hindi {
+  font-family: "Noto Sans Devanagari";
+  font-size: 14pt;
+  line-height: 1.75em;
+  color: #1f4d79;
+  text-align: center;
+  text-indent: 24pt;
+}
+
+.audioplay {
+  width: 84%;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+}
+
+.navigation {
+  position: relative;
+  bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  letter-spacing: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navigation li a {
+  display: inline-block;
+}
+
+.navigation li a i {
+  color: #0993f3;
+}
+
+.navigation li a i:hover {
+  color: #1261a0;
+}
+
+footer {
+  background: #fff;
+  padding: 15px 100px;
+}
+
+footer p {
+  color: #111;
+  text-align: center;
+  letter-spacing: 1.7;
+  font-family: "Ubuntu", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 30px 40px 15px;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .shlok,
+  p.sanskrit {
+    font-size: 8pt;
+    line-height: 1.5;
+  }
+
+  .meaning_english,
+  p.english {
+    font-size: 8pt;
+  }
+
+  .meaning_hindi,
+  p.hindi {
+    font-size: 8pt;
+  }
+
+  .audioplay {
+    width: 84%;
+    height: 42px;
+  }
+
+  footer {
+    padding: 10px 40px;
+  }
+
+  footer p {
+    font-size: 9px;
+  }
+}

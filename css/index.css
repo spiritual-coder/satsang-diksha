@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body {
+  background: url(../assets/background.jpg);
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  /*padding-top: 10px;
+  padding-bottom: 10px;
+  			background-color: white;
+
+  padding: 30px;*/
+  color: #333;
+}
+
+.container {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 60px 100px 15px;
+  margin: 60px 180px;
+  border-radius: 6px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1261a0;
+}
+
+h1 {
+  text-align: center;
+  color: #c00000;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2 {
+  border-bottom: 1px solid #eaecef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 24px 0 16px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+}
+
+.toc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+.downloadPdf {
+  font-size: 15px;
+}
+
+footer {
+  background: #fff;
+  padding: 15px 100px;
+}
+
+footer p {
+  color: #111;
+  text-align: center;
+  letter-spacing: 1.7;
+  font-family: "Ubuntu", sans-serif;
+}
+
+@media (max-width: 991px) {
+
+
+  .container {
+    padding: 30px 40px 15px;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 9px;
+    padding: 12px;
+  }
+
+  body {
+/*    font-size: 16px;*/
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+
+  a {
+    font-size: 9px;
+  }
+
+  .downloadPdf h3 a {
+    font-size: 11px;
+  }
+
+
+  footer {
+    padding: 10px 40px;
+  }
+
+  footer p {
+    font-size: 11px;
+  }
+}
